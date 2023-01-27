@@ -4,6 +4,11 @@
 # Print out the second student's name.
 # Print out the last student's name.
 
+students = ['An','Bill','Victoria','Kylie','Ellie','Tina']
+
+print(students[1])
+print(students[-1])
+
 
 # Exercise 2
 
