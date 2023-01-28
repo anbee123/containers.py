@@ -71,7 +71,11 @@ for idx, student in enumerate(students):
 # ["Tina is awesome!", "Fred is awesome!", "Wilma is awesome!"]
 # Iterate over awesome_students printing out each string.
 
-
+awesome_students = [(f"It's possible that {s} is awesome!") for s in students[:-1]]
+for s in awesome_students:
+    print(s)
+print(f"It's possible that ummm...awkward but... {students[-1]}, just not feeling the awesome vibes from y'all...")
+print(awesome_students)
 
 # Exercise 8
 
