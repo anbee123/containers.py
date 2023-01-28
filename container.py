@@ -30,7 +30,12 @@ for food in foods[-2:]:
 # Create a dictionary named home_town containing the keys of city, state and population.
 # Print a string with this format:
 # "I was born in city, state - population of population"
-
+home_town = {
+    'city': 'Boston',
+    'state': 'MA',
+    'population': '654,776',
+}
+print(f'I was born in {home_town['city']}, {home_town['state']}.  With a whoppingly huge population of {home_town['population']} people.')
 
 
 # Exercise 5
