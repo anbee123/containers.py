@@ -22,8 +22,8 @@ for food in foods:
 # Exercise 3
 
 # Using a for loop, print just the last two food strings from foods.
-
-
+for food in foods[-2:]:
+    print(food)
 
 # Exercise 4
 
