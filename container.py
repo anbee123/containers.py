@@ -80,3 +80,6 @@ print(awesome_students)
 # Exercise 8
 
 # Using the tuple foods and list comprehension within a for loop, print each food string that contains the letter a.
+a_foods = [food for food in foods if 'a' in food]
+for food in a_foods:
+    print(food)
