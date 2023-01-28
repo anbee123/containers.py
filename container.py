@@ -35,7 +35,7 @@ home_town = {
     'state': 'MA',
     'population': '654,776',
 }
-print(f'I was born in {home_town['city']}, {home_town['state']}.  With a whoppingly huge population of {home_town['population']} people.')
+print(f"I was born in {home_town['city']}, {home_town['state']}.  With a whoppingly huge population of {home_town['population']} people.")
 
 
 # Exercise 5
@@ -57,7 +57,12 @@ for key, val in home_town.items():
 # 	'fav_food': 'Cheeseburger'
 # }
 # Iterate over cohort printing out each element.
-
+cohort = []
+for idx, student in enumerate(students):
+    cohort.append({
+        'student': student,
+        'fav_food': foods[idx]})
+    print(cohort[idx])
 
 
 # Exercise 7
